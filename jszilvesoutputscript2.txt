@@ -1,0 +1,10 @@
+Warning: Using a password on the command line interface can be insecure.
+ERROR 2 (HY000) at line 3: File 'loadfall2018.txt' not found (Errcode: 2 - No such file or directory)
+--------------
+LOAD DATA LOCAL INFILE 'loadfall2018.txt' 
+INTO TABLE product 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+--------------
+
